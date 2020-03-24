@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #header{
     height: 100vh;
@@ -16,4 +16,59 @@
 .logo{
     margin-top: 30px;
     width: 100px;
+    cursor: pointer;
 }
+.header-text{
+    margin-top: 140px;
+    max-width: 400px;
+    
+}
+h1{
+    font-size: 34px;
+}
+.small-text{
+   opacity: 84%;
+   /* font-size: 15px; */
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin: 15px 0;
+    background-color: #f67c92;
+}
+.common-button{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;   
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.header-text button{
+    margin-top: 12px;
+    margin-bottom: 60px;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #f67c92;
+} 
+.line-2{
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background: #f67c92;
+} 
+.line-3{
+    width: 60px;
+    height: 1px;
+    display: inline-block;
+    background: #f67c92;
+} 
+.line{
+    margin-bottom: 20px;
+}
+
