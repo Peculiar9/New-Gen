@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+#header{
+    height: 100vh;
+    background-image: url(/Images/background.png);
+    background-position: center;
+    background-size: cover;
+}
