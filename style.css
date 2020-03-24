@@ -1,10 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 #header{
     height: 100vh;
-    background-image: url(/Images/background.png);
+    background-image: url(Images/background.png);
     background-position: center;
     background-size: cover;
+}
+.container{
+    margin-left:100px;
+    margin-right: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
 }
