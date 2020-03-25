@@ -45,6 +45,13 @@ h1{
     font-weight: bold;
     cursor: pointer; 
 }
+.common-button:hover{
+    color: white;
+    background: #f52f54;
+    border: 2px solid white;
+    opacity: 35%;
+    transition: .5s;
+}
 
 .header-text button{
     margin-top: 12px;
@@ -79,7 +86,8 @@ h1{
     right: -250px;
     background-color: #f67c92;
     z-index: 2;
-    transition: .5s;
+    transition: .5s
+    ;
 }
 nav ul{
     list-style: none;
@@ -97,6 +105,23 @@ nav ul a{
     right: 65px;
     cursor: pointer;
     z-index: 2;
+}
+
+/* ---about--- */
+#about{
+   padding: 50px 0;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col .image{
+  width: 100%; 
+}
+.about-right-col{
+    flex-basis: 50%;
 }
 
 
