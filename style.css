@@ -147,5 +147,68 @@ h3{
     font-style: italic;
 }
 
+/* features */
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.feature-col img{
+    width: 100px;
+}
+.feature-col h4{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.feature-btn{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    max-height: 80px;
+}
 
+.feature-btn .line{
+    display: inline-block;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin:20px ;
+    max-width: 30px;
+    opacity: 25%;
+}
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-left-col, .contact-right-col{
+    flex: 50%;
+}
+.contact-right-col img{
+    flex: 50%;
+    width: 100%;
+}
+.contact-left-col h1{
+    padding: 20px 0;
+}
+form input{
+    margin: 12px 10px;
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #f67c92;
+}
 
