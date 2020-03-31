@@ -214,3 +214,39 @@ form input{
     box-shadow:none;
     border: 2px solid #f67c92;
 }
+#footer {
+    padding: 50px 0 30px;
+}
+hr {
+    margin-bottom: 50px;
+}
+.footer-row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+flex-basis: 50%;
+margin-top: 40px;
+}
+
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-link{
+    
+    display: flex;      
+    justify-content:space-between;
+    flex-wrap: wrap; 
+}   
+.link-title h4{
+    margin-bottom: 20px;
+   color: #f67c92;
+   padding-top: 12px;
+} 
+
+.link-title small{
+   font-size:13px;
+   color: #777s;
+} 
